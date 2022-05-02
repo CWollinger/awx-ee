@@ -1,2 +1,0 @@
-git-lfs [platform:rpm]
-unzip [platform:rpm]
