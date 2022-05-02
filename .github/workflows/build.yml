@@ -22,7 +22,7 @@ jobs:
           pip install ansible-builder
 
       - name: Build EE
-        run: ansible-builder build -v3 -t cwollinger/awx-ee:2.12
+        run: ansible-builder build -v3 -t docker.io/cwollinger/awx-ee:2.12
 
       - name: Push EE
-        run: docker push cwollinger/awx-ee:2.12
+        run: docker push docker.io/cwollinger/awx-ee:2.12
