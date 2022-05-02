@@ -23,3 +23,6 @@ jobs:
 
       - name: Build EE
         run: ansible-builder build -v3 -t cwollinger/awx-ee:2.12
+
+      - name: Push EE
+        run: docker push cwollinger/awx-ee:2.12
