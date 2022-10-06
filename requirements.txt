@@ -1,4 +1,4 @@
 cerberus
 jxmlease
 ansible-core==2.13.4
-pyOpenSSL==19.1.0
+ansible-runner>=2.2.1
