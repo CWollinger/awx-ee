@@ -1,1 +1,3 @@
 cerberus
+jxmlease
+ansible-core==2.13.4
