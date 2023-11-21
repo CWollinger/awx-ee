@@ -1,5 +1,3 @@
-cerberus
-jxmlease
 azure-servicebus
 aiobotocore
 aiohttp
