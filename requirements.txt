@@ -6,3 +6,4 @@ watchdog
 systemd-python
 dpath
 pyyaml
+ansible-rulebook
