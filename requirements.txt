@@ -1,2 +1,9 @@
-cerberus
-jxmlease
+azure-servicebus
+aiobotocore
+aiohttp
+aiokafka
+watchdog
+systemd-python
+dpath
+pyyaml
+ansible-rulebook

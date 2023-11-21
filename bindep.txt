@@ -1,3 +1,4 @@
 git-lfs [platform:rpm]
 unzip [platform:rpm]
 sshpass [platform:rpm]
+java-17-openjdk-devel [platform:rpm]
