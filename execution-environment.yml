@@ -9,6 +9,9 @@ dependencies:
   galaxy: requirements.yml
   python: requirements.txt
   system: bindep.txt
+  python_interpreter:
+    package_system: "python311"
+    python_path: "/usr/bin/python3.11"
 
 images:
   base_image:
