@@ -2,7 +2,7 @@
 collections:
   - name: awx.awx
 #  - name: amazon.aws
-#  - name: openstack.cloud
+  - name: openstack.cloud
 #  - name: community.vmware
   - name: community.general
   - name: community.docker
