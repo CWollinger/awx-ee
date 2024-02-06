@@ -28,4 +28,5 @@ additional_build_steps:
   append_final:
     - RUN echo This is a post-install command!
     - RUN ls -la /etc
-
+    - RUN ansible-galaxy collection list
+    - RUN pip list
