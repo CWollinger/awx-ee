@@ -21,6 +21,7 @@ additional_build_steps:
   prepend_base:
      - RUN dnf install -y epel-release epel-next-release
      - RUN dnf install -y dnf-plugins-core
+     - RUN dnf install -y python3-devel
      - RUN dnf install -y python3.11
      - RUN python3.11 -m ensurepip
   prepend_final: |
