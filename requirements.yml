@@ -9,6 +9,6 @@ collections:
   - name: community.grafana
 #  - name: community.crypto
   - name: community.mysql
-#  - name: kubernetes.core
+  - name: kubernetes.core
 #  - name: ansible.netcommon
   - name: ansible.posix
