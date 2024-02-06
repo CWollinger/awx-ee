@@ -1,14 +1,14 @@
 ---
 collections:
-  - name: awx.awx
-  - name: amazon.aws
-  - name: openstack.cloud
-  - name: community.vmware
+#  - name: awx.awx
+#  - name: amazon.aws
+#  - name: openstack.cloud
+#  - name: community.vmware
   - name: community.general
-  - name: community.docker
-  - name: community.grafana
-  - name: community.crypto
-  - name: community.mysql
-  - name: kubernetes.core
-  - name: ansible.netcommon
-  - name: ansible.posix
+#  - name: community.docker
+#  - name: community.grafana
+#  - name: community.crypto
+#  - name: community.mysql
+#  - name: kubernetes.core
+#  - name: ansible.netcommon
+#  - name: ansible.posix
