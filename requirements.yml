@@ -28,4 +28,4 @@ collections:
  # - name: damhau.ansible_for_nsxt
   - name: vmware.vmware
  # - name: vmware.alb
-  - name: vmware.vmware_rest
+ # - name: vmware.vmware_rest
