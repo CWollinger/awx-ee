@@ -1,7 +1,7 @@
 cerberus
 jxmlease
 passlib
-python-ldap
+# python-ldap
 pywinrm
 pypsrp
 python-gitlab
