@@ -1,6 +1,5 @@
 ---
 collections:
-  - name: redhat.satellite
   - name: awx.awx
   - name: amazon.aws
   # - name: openstack.cloud
