@@ -31,4 +31,4 @@ collections:
   - name: vmware.rest
   - name: vmware.vmware
   - name: vmware.alb
-  - name: vmware.vmware_rest
+#  - name: vmware.vmware_rest
