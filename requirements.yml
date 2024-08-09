@@ -28,3 +28,4 @@ collections:
   - name: containers.podman
   - name: netapp.ontap
   - name: damhau.ansible_for_nsxt
+  - name: vmware.alb
