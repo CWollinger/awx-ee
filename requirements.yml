@@ -27,3 +27,4 @@ collections:
   - name: cyberark.conjur
   - name: containers.podman
   - name: netapp.ontap
+  - name: vmware.rest
