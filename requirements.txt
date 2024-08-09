@@ -1,9 +1,9 @@
-# cerberus
-# jxmlease
-# passlib
-# python-ldap
-# pywinrm
-# pypsrp
-# python-gitlab
-# dnspython
-# hvac
+cerberus
+jxmlease
+passlib
+python-ldap
+pywinrm
+pypsrp
+python-gitlab
+dnspython
+hvac
