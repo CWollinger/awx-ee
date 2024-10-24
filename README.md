@@ -2,4 +2,4 @@
 # awx-ee
 Own ansible execution environment
 
-Based on: Ansible 2.17.3
+Based on: Ansible 2.18.0rc1
