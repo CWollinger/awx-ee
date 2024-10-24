@@ -7,3 +7,4 @@ pypsrp
 python-gitlab
 dnspython
 hvac
+requests
