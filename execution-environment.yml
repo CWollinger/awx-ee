@@ -3,15 +3,15 @@ version: 3
 
 dependencies:
   ansible_core:
-    package_pip: ansible-core==2.17.5
+    package_pip: ansible-core==2.18.0rc1
   ansible_runner:
     package_pip: ansible-runner
   galaxy: requirements.yml
   python: requirements.txt
   system: bindep.txt
   python_interpreter:
-    package_system: "python311"
-    python_path: "/usr/bin/python3.11"
+    package_system: "python312"
+    python_path: "/usr/bin/python3.12"
 
 images:
   base_image:
@@ -21,10 +21,10 @@ additional_build_steps:
   prepend_base:
      - RUN dnf install -y epel-release epel-next-release
      - RUN dnf install -y dnf-plugins-core
-     - RUN dnf install -y python3-devel
-     - RUN dnf install -y python3.11
-     - RUN dnf install -y python3.11-devel
-     - RUN python3.11 -m ensurepip
+     # - RUN dnf install -y python3-devel
+     - RUN dnf install -y python3.12
+     - RUN dnf install -y python3.12-devel
+     - RUN python3.12 -m ensurepip
   prepend_final: |
     RUN whoami
     RUN cat /etc/os-release
@@ -33,3 +33,4 @@ additional_build_steps:
     - RUN ls -la /etc
     - RUN ansible-galaxy collection list
     - RUN pip3 list
+    - RUN ansible --version
