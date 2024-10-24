@@ -33,3 +33,4 @@ additional_build_steps:
     - RUN ls -la /etc
     - RUN ansible-galaxy collection list
     - RUN pip3 list
+    - RUN ansible --version
