@@ -3,7 +3,7 @@ version: 3
 
 dependencies:
   ansible_core:
-    package_pip: ansible-core==2.18.0
+    package_pip: ansible-core==2.19.0b3
   ansible_runner:
     package_pip: ansible-runner
   galaxy: requirements.yml
