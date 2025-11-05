@@ -3,27 +3,27 @@ version: 3
 
 dependencies:
   ansible_core:
-    package_pip: ansible-core==2.19.0b3
+    package_pip: ansible-core==2.20.0
   ansible_runner:
     package_pip: ansible-runner
   galaxy: requirements.yml
   python: requirements.txt
   system: bindep.txt
   python_interpreter:
-    package_system: "python312"
-    python_path: "/usr/bin/python3.12"
+    package_system: "python313"
+    python_path: "/usr/bin/python3.13"
 
 images:
   base_image:
-     name: quay.io/centos/centos:stream9
+     name: fedora:42
 
 additional_build_steps:
   prepend_base:
      - RUN dnf install -y epel-release epel-next-release
      - RUN dnf install -y dnf-plugins-core
-     - RUN dnf install -y python3.12
-     - RUN dnf install -y python3.12-devel
-     - RUN python3.12 -m ensurepip
+     - RUN dnf install -y python3.13
+     - RUN dnf install -y python3.13-devel
+     - RUN python3.13 -m ensurepip
   prepend_final: |
     RUN whoami
     RUN cat /etc/os-release
