@@ -21,6 +21,7 @@ collections:
   - name: gluster.gluster
   - name: cisco.nxos
   - name: cisco.ios
+  - name: cisco.asa
   - name: fortinet.fortios
   - name: fortinet.fortimanager
   - name: community.hashi_vault
