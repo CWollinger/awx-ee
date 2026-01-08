@@ -2,7 +2,7 @@
 collections:
   - name: awx.awx
   - name: amazon.aws
-  # - name: openstack.cloud
+  - name: openstack.cloud
   - name: community.vmware
   - name: community.general
   - name: community.docker
@@ -21,6 +21,7 @@ collections:
   - name: gluster.gluster
   - name: cisco.nxos
   - name: cisco.ios
+  - name: cisco.asa
   - name: fortinet.fortios
   - name: fortinet.fortimanager
   - name: community.hashi_vault

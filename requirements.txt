@@ -8,3 +8,4 @@ python-gitlab
 dnspython
 hvac
 requests
+infoblox-client
