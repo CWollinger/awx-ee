@@ -10,8 +10,8 @@ dependencies:
   python: requirements.txt
   system: bindep.txt
   python_interpreter:
-    package_system: "python313"
-    python_path: "/usr/bin/python3.13"
+    package_system: "python314"
+    python_path: "/usr/bin/python3.14"
 
 images:
   base_image:
@@ -20,9 +20,9 @@ images:
 additional_build_steps:
   prepend_base:
      - RUN dnf install -y dnf-plugins-core
-     - RUN dnf install -y python3.13
-     - RUN dnf install -y python3.13-devel
-     - RUN python3.13 -m ensurepip
+     - RUN dnf install -y python3.14
+     - RUN dnf install -y python3.14-devel
+     - RUN python3.14 -m ensurepip
   prepend_final: |
     RUN whoami
     RUN cat /etc/os-release
