@@ -4,7 +4,7 @@ collections:
   # - name: amazon.aws
   # - name: openstack.cloud
   # - name: community.vmware
-  # - name: community.general
+  - name: community.general
   # - name: community.docker
   # - name: community.grafana
   # - name: community.crypto
@@ -30,5 +30,5 @@ collections:
   # - name: damhau.ansible_for_nsxt
   # - name: chocolatey.chocolatey
   # - name: vmware.vmware_rest
-  - name: azure.azcollection
+  # - name: azure.azcollection
   # - name: cisco.asa
