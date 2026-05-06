@@ -28,3 +28,7 @@ collections:
   - name: containers.podman
   - name: netapp.ontap
   - name: damhau.ansible_for_nsxt
+  - name: chocolatey.chocolatey
+  - name: vmware.vmware_rest
+  - name: azure.azcollection
+  - name: cisco.asa

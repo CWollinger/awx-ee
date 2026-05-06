@@ -2,4 +2,4 @@
 # awx-ee
 Own ansible execution environment
 
-Based on: Ansible 2.19.0b3
+Based on: Ansible 2.20.5 and fedora 44
